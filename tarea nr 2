@@ -1,0 +1,74 @@
+//primera parte:
+public class Main {
+    public static void main(String[] args) {
+
+            int numero = 2;
+
+            if (numero>0){
+                System.out.println("el numero es positivo");
+                }
+            else if (numero<0){
+                System.out.println("el numero es negativo");
+                }
+            else {
+                System.out.println("el numero es 0");
+                }
+    }
+}
+
+//segunda parte:
+
+public class Main {
+    public static void main(String[] args) {
+
+            int numero = 0;
+
+            while(numero < 3){
+                System.out.println(numero);
+                numero++;
+                }
+    }
+}
+
+//tercera parte:
+
+public class Main {
+    public static void main(String[] args) {
+
+            int numero = 0;
+            do{
+                System.out.println(numero);
+                numero+=1;
+            }
+            while(numero < 3);
+    }
+ }
+    
+ //cuarta parte:
+ 
+ public class Main {
+    public static void main(String[] args) {
+
+        for(int i=0; i<=3; i++){
+                System.out.println(i);
+        }
+    }
+}
+
+//quinta parte:
+public class Main {
+    public static void main(String[] args) {
+
+       var estacion ="verano";
+
+       switch(estacion){
+           case "primavera":System.out.println("Es primavera");break;
+           case "verano":System.out.println("Es verano");break;
+           case "otoño":System.out.println("Es otoño");break;
+           case "invierno":System.out.println("Es invierno");break;
+           default : System.out.println("No es ninguna estacion");
+        }
+    }
+}
+
+
